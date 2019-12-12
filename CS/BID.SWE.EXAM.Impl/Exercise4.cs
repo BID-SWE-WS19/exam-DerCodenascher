@@ -14,6 +14,7 @@ namespace BID.SWE.EXAM.Impl
             writer.Write(42);
             writer.Write(false);
             writer.Flush();
+            memstream.Seek(0, SeekOrigin.Begin);
             return memstream;
         }
 

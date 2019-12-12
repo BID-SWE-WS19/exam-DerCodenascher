@@ -18,7 +18,6 @@ namespace BID.SWE.EXAM.Impl
             string retstr = string.Empty;
             while (!string.IsNullOrEmpty(retstr = reader.ReadLine())) {
                 list.Add(retstr);
-                retstr = string.Empty;
             }
             return list;
         }

@@ -1,5 +1,6 @@
 using BID.SWE.EXAM.Impl;
 using NUnit.Framework;
+using System.IO;
 
 namespace UnitTests {
     public class Tests {
